@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 10px;
+  padding: 0;
+  min-height: 100dvh;
+  display: grid;
+}
+.teaser {
+  color: yellow;
+  font-size: 2rem;
+  background-image: url(../assets/backgroundindex.jpeg);
+}
+.home{
+  display: flex;
+  flex-direction: column;
+}
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+
+  gap: 20px;
+}
+.photo {
+  width: 400px;
+  height: 250px; /* Rectangle shape */
+  overflow: hidden;
+}
+.article1 {
+  background-image: url(../assets/goldstein-house.jpg);
+}
+.article2 {
+  background-image: url(../assets/stahl-house.jpg);
+}
+.article3 {
+  background-image: url(../assets/innes-house.jpg);
+}
+
+.article4 {
+  background-image: url(../assets/health-house.jpg);
+}
+.article5 {
+  background-image: url(../assets/schindler-house.jpg);
+}
+.article6 {
+  background-image: url(../assets/eames-house.jpg);
+}

@@ -1,0 +1,11 @@
+body{
+    height: 100dvh;
+}
+
+.parent{
+    height: 100%;
+    display: flex;
+}
+.child{
+    border: 1px solid black;
+}
